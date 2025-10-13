@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Welcome To the Webiste!!! Fill in the required blanks: </h1>
+        <form action="php" method="POST">
+        <label for="Username">Username: </label>
+        <input type="text" id="Username" placeholder="Okasha" minlength="5">
+        <br><br>
+        <label for="Password">Password</label>
+        <input type="password" id="Password" placeholder="takkar1255" minlength="4">
+        <br><br>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" placeholder="abc@gmail.com">
+        <br><br>
+        <label for="Phone">Phone:</label>
+        <input type="tel" id="Phone" placeholder="0312-2345-345" maxlength="15">
+        <br><br>
+
+        <label for="Courses">Courses:</label>
+        <select id="Courses">
+            <option>Web development</option>
+            <option>app development</option>
+            <option>game development</option>
+            <option>Online Trading</option>
+            <option>AI courses</option>
+            <option>Machine Learning</option>
+        </select>
+        <br><br>
+        <label for="Semester">Semester:</label>
+
+        <label for="1st">1st</label>
+        <input type="radio" id="1st" value="1st" name="Semester">
+        <label for="3rd">3rd</label>
+        <input type="radio" id="3rd" value="3rd" name="Semester">
+        <label for="4th">4th</label>
+        <input type="radio" id="4th" value="4th" name="Semester">
+        <label for="5th">5th</label>
+        <input type="radio" id="5th" value="5th" name="Semester">
+        <label for="7th">7th</label>
+        <input type="radio" id="7th" value="7th" name="Semester">
+
+        <input type="reset"><br><br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
